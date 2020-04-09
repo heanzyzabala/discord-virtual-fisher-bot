@@ -1,0 +1,26 @@
+{
+  "name": "virtual-fisher-anti-bot-handler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heanzyzabala/virtual-fisher-anti-bot-handler.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heanzyzabala/virtual-fisher-anti-bot-handler/issues"
+  },
+  "homepage": "https://github.com/heanzyzabala/virtual-fisher-anti-bot-handler#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "discord.js": "^12.1.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}
