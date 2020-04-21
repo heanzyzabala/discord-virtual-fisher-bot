@@ -9,7 +9,7 @@ let key = '%f';
 app.use(express.json());
 app.get('/', (req, res) => {
   const _key = key;
-  if(key != '%f') {
+  if(key != '.') {
     key = '%f';
   }
   return res.status(200).json({ key: _key });
