@@ -13,7 +13,7 @@ client.on('message', (message) => {
     return;
   }
 
-  if (message.member.id === '359340728968806400' || message.member.id === '574652751745777665') {
+  if (message.member.id === '574652751745777665') {
     Solve.solve(message);
   }
 });
